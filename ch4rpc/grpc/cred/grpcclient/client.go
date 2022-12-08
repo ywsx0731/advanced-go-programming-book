@@ -10,7 +10,7 @@ import (
 
 func main() {
 	creds, err := credentials.NewClientTLSFromFile(
-		"../server.crt", "server.grpc.io",
+		"../server.crt", "localhost",
 	)
 	if err != nil {
 		log.Fatal(err)
