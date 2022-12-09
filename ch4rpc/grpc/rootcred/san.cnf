@@ -1,0 +1,17 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+
+[req_distinguished_name]
+countryName = country
+stateOrProvinceName = province
+localityName = city
+organizationName = company name
+commonName = domain name or ip
+ 
+[v3_req]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1=localhost
+DNS.2=test1.tls.local
