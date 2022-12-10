@@ -1,4 +1,4 @@
-module serverinterceptor
+module clientinterceptor
 
 go 1.17
 

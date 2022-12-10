@@ -1,0 +1,1 @@
+protoc   --proto_path=$env:gopath\pkg\mod\github.com\google\protobuf@v3.21.11+incompatible\src  --proto_path=C:\Users\qdzs0\go\pkg\mod\    --proto_path=.   --govalidators_out=. --go_out=plugins=grpc:.  hello.proto
