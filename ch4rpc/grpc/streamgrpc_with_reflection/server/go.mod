@@ -1,4 +1,4 @@
-module streamgrpc
+module streamgrpc_with_reflection
 
 go 1.17
 
